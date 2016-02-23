@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ACD842C1C7D0F3A009D5722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACD842B1C7D0F3A009D5722 /* AppDelegate.swift */; };
+		6ACD842E1C7D0F3A009D5722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACD842D1C7D0F3A009D5722 /* ViewController.swift */; };
+		6ACD84311C7D0F3A009D5722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACD842F1C7D0F3A009D5722 /* Main.storyboard */; };
+		6ACD84331C7D0F3A009D5722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACD84321C7D0F3A009D5722 /* Assets.xcassets */; };
+		6ACD84361C7D0F3A009D5722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACD84341C7D0F3A009D5722 /* LaunchScreen.storyboard */; };
+		6ACD84471C7D0F89009D5722 /* GTL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACD84461C7D0F89009D5722 /* GTL.framework */; };
+		6ACD844A1C7D109A009D5722 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACD84491C7D109A009D5722 /* GTMOAuth2ViewTouch.xib */; };
+		6ACD844D1C7D116C009D5722 /* GTLCalendar_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACD844C1C7D116C009D5722 /* GTLCalendar_Sources.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ACD84421C7D0F57009D5722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ACD843D1C7D0F57009D5722 /* Quickstart.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6ACD83E81C7D0AAF009D5722;
+			remoteInfo = Quickstart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ACD84281C7D0F3A009D5722 /* QuickstartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickstartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACD842B1C7D0F3A009D5722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ACD842D1C7D0F3A009D5722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ACD84301C7D0F3A009D5722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ACD84321C7D0F3A009D5722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ACD84351C7D0F3A009D5722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ACD84371C7D0F3A009D5722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ACD843D1C7D0F57009D5722 /* Quickstart.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quickstart.xcodeproj; path = ../Quickstart/Quickstart.xcodeproj; sourceTree = "<group>"; };
+		6ACD84461C7D0F89009D5722 /* GTL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTL.framework; path = "../../../google-api-objectivec-client/Source/build/Debug-iphoneos/GTL.framework"; sourceTree = "<group>"; };
+		6ACD84491C7D109A009D5722 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../../../google-api-objectivec-client/Deps/gtm-oauth2/Source/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
+		6ACD844B1C7D116B009D5722 /* QuickstartApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickstartApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		6ACD844C1C7D116C009D5722 /* GTLCalendar_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLCalendar_Sources.m; path = "../../../../google-api-objectivec-client/Source/Services/Calendar/Generated/GTLCalendar_Sources.m"; sourceTree = "<group>"; };
+		6ACD844E1C7D11B8009D5722 /* GTLCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLCalendar.h; path = "../../../../google-api-objectivec-client/Source/Services/Calendar/Generated/GTLCalendar.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ACD84251C7D0F3A009D5722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACD84471C7D0F89009D5722 /* GTL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ACD841F1C7D0F3A009D5722 = {
+			isa = PBXGroup;
+			children = (
+				6ACD84441C7D0F6C009D5722 /* Quickstart */,
+				6ACD84481C7D104C009D5722 /* Supporting Files */,
+				6ACD842A1C7D0F3A009D5722 /* QuickstartApp */,
+				6ACD84291C7D0F3A009D5722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ACD84291C7D0F3A009D5722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD84281C7D0F3A009D5722 /* QuickstartApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ACD842A1C7D0F3A009D5722 /* QuickstartApp */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD844E1C7D11B8009D5722 /* GTLCalendar.h */,
+				6ACD844C1C7D116C009D5722 /* GTLCalendar_Sources.m */,
+				6ACD842B1C7D0F3A009D5722 /* AppDelegate.swift */,
+				6ACD842D1C7D0F3A009D5722 /* ViewController.swift */,
+				6ACD842F1C7D0F3A009D5722 /* Main.storyboard */,
+				6ACD84321C7D0F3A009D5722 /* Assets.xcassets */,
+				6ACD84341C7D0F3A009D5722 /* LaunchScreen.storyboard */,
+				6ACD84371C7D0F3A009D5722 /* Info.plist */,
+				6ACD844B1C7D116B009D5722 /* QuickstartApp-Bridging-Header.h */,
+			);
+			path = QuickstartApp;
+			sourceTree = "<group>";
+		};
+		6ACD843E1C7D0F57009D5722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD84431C7D0F57009D5722 /* Quickstart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ACD84441C7D0F6C009D5722 /* Quickstart */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD84461C7D0F89009D5722 /* GTL.framework */,
+				6ACD843D1C7D0F57009D5722 /* Quickstart.xcodeproj */,
+			);
+			name = Quickstart;
+			sourceTree = "<group>";
+		};
+		6ACD84481C7D104C009D5722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD84491C7D109A009D5722 /* GTMOAuth2ViewTouch.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ACD84271C7D0F3A009D5722 /* QuickstartApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACD843A1C7D0F3A009D5722 /* Build configuration list for PBXNativeTarget "QuickstartApp" */;
+			buildPhases = (
+				6ACD84241C7D0F3A009D5722 /* Sources */,
+				6ACD84251C7D0F3A009D5722 /* Frameworks */,
+				6ACD84261C7D0F3A009D5722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickstartApp;
+			productName = QuickstartApp;
+			productReference = 6ACD84281C7D0F3A009D5722 /* QuickstartApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ACD84201C7D0F3A009D5722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Yousef Kazerooni";
+				TargetAttributes = {
+					6ACD84271C7D0F3A009D5722 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = DQ534CHV8P;
+					};
+				};
+			};
+			buildConfigurationList = 6ACD84231C7D0F3A009D5722 /* Build configuration list for PBXProject "QuickstartApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ACD841F1C7D0F3A009D5722;
+			productRefGroup = 6ACD84291C7D0F3A009D5722 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6ACD843E1C7D0F57009D5722 /* Products */;
+					ProjectRef = 6ACD843D1C7D0F57009D5722 /* Quickstart.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6ACD84271C7D0F3A009D5722 /* QuickstartApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6ACD84431C7D0F57009D5722 /* Quickstart.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Quickstart.app;
+			remoteRef = 6ACD84421C7D0F57009D5722 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ACD84261C7D0F3A009D5722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACD844A1C7D109A009D5722 /* GTMOAuth2ViewTouch.xib in Resources */,
+				6ACD84361C7D0F3A009D5722 /* LaunchScreen.storyboard in Resources */,
+				6ACD84331C7D0F3A009D5722 /* Assets.xcassets in Resources */,
+				6ACD84311C7D0F3A009D5722 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ACD84241C7D0F3A009D5722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACD842E1C7D0F3A009D5722 /* ViewController.swift in Sources */,
+				6ACD844D1C7D116C009D5722 /* GTLCalendar_Sources.m in Sources */,
+				6ACD842C1C7D0F3A009D5722 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6ACD842F1C7D0F3A009D5722 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ACD84301C7D0F3A009D5722 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ACD84341C7D0F3A009D5722 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ACD84351C7D0F3A009D5722 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ACD84381C7D0F3A009D5722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "GTL_BUILT_AS_FRAMEWORK=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ACD84391C7D0F3A009D5722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ACD843B1C7D0F3A009D5722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = QuickstartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuickstartApp/QuickstartApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ACD843C1C7D0F3A009D5722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = QuickstartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuickstartApp/QuickstartApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ACD84231C7D0F3A009D5722 /* Build configuration list for PBXProject "QuickstartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACD84381C7D0F3A009D5722 /* Debug */,
+				6ACD84391C7D0F3A009D5722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACD843A1C7D0F3A009D5722 /* Build configuration list for PBXNativeTarget "QuickstartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACD843B1C7D0F3A009D5722 /* Debug */,
+				6ACD843C1C7D0F3A009D5722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ACD84201C7D0F3A009D5722 /* Project object */;
+}
