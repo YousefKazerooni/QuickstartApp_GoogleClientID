@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     
     private let kKeychainItemName = "Google Calendar API"
     private let kClientID = "640347850573-2l9bhl35gtoj9q9o7t26jfstcav5ifq8.apps.googleusercontent.com"
+    //let kClientID = "33alanb@gmail.com"
     
     // If modifying these scopes, delete your previously saved credentials by
     // resetting the iOS simulator or uninstall the app.
@@ -27,8 +28,11 @@ class ViewController: UIViewController {
         output.frame = view.bounds
         output.editable = false
         output.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 20, right: 0)
-        output.autoresizingMask = UIViewAutoresizing.FlexibleHeight |
-            UIViewAutoresizing.FlexibleWidth
+        output.autoresizingMask = [UIViewAutoresizing.FlexibleHeight, UIViewAutoresizing.FlexibleWidth]
+        
+            
+//            UIViewAutoresizing.FlexibleHeight |
+//            UIViewAutoresizing.FlexibleWidth
         
         view.addSubview(output);
         
@@ -54,6 +58,10 @@ class ViewController: UIViewController {
                 completion: nil
             )
         }
+        
+        //ME crucial positioning of the code so that you see events every time downloaded
+        fetchEvents()
+        
     }
     
     // Construct a query and get a list of upcoming events from the user calendar
@@ -68,6 +76,8 @@ class ViewController: UIViewController {
             delegate: self,
             didFinishSelector: "displayResultWithTicket:finishedWithObject:error:"
         )
+        
+        print ("\(query)")
     }
     
     // Display the start dates and event summaries in the UITextView
@@ -103,7 +113,7 @@ class ViewController: UIViewController {
     
     // Creates the auth controller for authorizing access to Google Calendar API
     private func createAuthController() -> GTMOAuth2ViewControllerTouch {
-        let scopeString = " ".join(scopes)
+        let scopeString = scopes.joinWithSeparator(" ")
         return GTMOAuth2ViewControllerTouch(
             scope: scopeString,
             clientID: kClientID,

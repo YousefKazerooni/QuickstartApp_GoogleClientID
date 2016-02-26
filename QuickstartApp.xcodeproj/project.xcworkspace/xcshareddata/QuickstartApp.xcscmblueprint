@@ -1,21 +1,24 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FFB6C92F9858618CFFB3462FC6807B2AD5360421",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "9D01D5BCCDE322646FEB1945347C3CF4E96976E3" : 0,
-    "FAD0B99C3A0EB9F5EAC9FDFC4A76471FB31CBC6F" : 0,
-    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : 0
+    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : 0,
+    "FFB6C92F9858618CFFB3462FC6807B2AD5360421" : 0,
+    "FAD0B99C3A0EB9F5EAC9FDFC4A76471FB31CBC6F" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "76E9C5A5-150E-4CE5-BE22-06C125DFD93E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "9D01D5BCCDE322646FEB1945347C3CF4E96976E3" : "..\/google-api-objectivec-client\/Deps\/gtm-oauth2",
-    "FAD0B99C3A0EB9F5EAC9FDFC4A76471FB31CBC6F" : "..\/google-api-objectivec-client\/Deps\/gtm-session-fetcher",
-    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : "..\/google-api-objectivec-client"
+    "9D01D5BCCDE322646FEB1945347C3CF4E96976E3" : "..\/..\/google-api-objectivec-client\/Deps\/gtm-oauth2",
+    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : "..\/..\/google-api-objectivec-client",
+    "FFB6C92F9858618CFFB3462FC6807B2AD5360421" : "QuickstartApp\/",
+    "FAD0B99C3A0EB9F5EAC9FDFC4A76471FB31CBC6F" : "..\/..\/google-api-objectivec-client\/Deps\/gtm-session-fetcher"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "QuickstartApp",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QuickstartApp\/QuickstartApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QuickstartApp.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/google\/gtm-oauth2.git",
@@ -31,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/google\/gtm-session-fetcher.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FAD0B99C3A0EB9F5EAC9FDFC4A76471FB31CBC6F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YousefKazerooni\/QuickstartApp_GoogleClientID.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FFB6C92F9858618CFFB3462FC6807B2AD5360421"
     }
   ]
 }
